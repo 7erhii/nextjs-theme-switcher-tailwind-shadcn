@@ -6,7 +6,3 @@ html,
 body {
   @apply bg-white dark:bg-black text-black dark:text-white;
 }
-
-button {
-  @apply bg-black dark:bg-white text-white dark:text-black;
-}

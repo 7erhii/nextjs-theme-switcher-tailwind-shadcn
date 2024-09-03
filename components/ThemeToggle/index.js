@@ -15,7 +15,7 @@ export default function ThemeToggle() {
   return (
     <button
       onClick={toggleTheme}
-      className="bg-black dark:bg-white text-white dark:text-black p-2 rounded"
+      className="bg-light-buttonBg dark:bg-dark-buttonBg text-white dark:text-black border-light-buttonBorder dark:border-dark-buttonBorder p-2 rounded"
     >
       Toggle Theme
     </button>
